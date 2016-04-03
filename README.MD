@@ -2,6 +2,8 @@
 
 This repo exists only to illustrate how to import collections in Meteor 1.3. Please look at the code to see how it works.
 
+Oh, did I mention that it uses TypeScript? No? Ok, it does.
+
 ## Don't have time to read my f#$%^&g code...
 
 OK, so, it's like this:
