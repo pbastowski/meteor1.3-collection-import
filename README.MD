@@ -8,20 +8,20 @@ Oh, did I mention that it uses TypeScript? No? Ok, it does.
 
 OK, so, it's like this:
 
-Create file `/imports/collections/my-collection.js` and put the code below into it
+Create file `/imports/collections/my-collection.ts` and put the code below into it
 
 ```js
 import { Mongo } from 'meteor/mongo';
 export var MyCollection = new Mongo.Collection('MyCollection');
 ```
 
-In `/client/app.js`, or whatever client JS file you need `MyCollection` in
+In `/client/app.ts`, or whatever client JS file you need `MyCollection` in
 
 ```js
 import { MyCollection } from '/imports/collections/my-collection'
 ```
 
-In `/server/collections.js`
+In `/server/collections.ts`
 
 ```js
 import { MyCollection } from '/imports/collections/my-collection'
